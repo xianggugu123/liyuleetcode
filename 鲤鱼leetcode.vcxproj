@@ -132,6 +132,8 @@
     <ClCompile Include="二分查找367.cpp" />
     <ClCompile Include="二分查找69.cpp" />
     <ClCompile Include="二分查找704.cpp" />
+    <ClCompile Include="数组删除重复元素26.cpp" />
+    <ClCompile Include="数组移除元素27.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

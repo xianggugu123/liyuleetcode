@@ -20,11 +20,11 @@ public:
         return slow;
     }
 };
-int main()
-{
-    vector<int>nums{0, 1, 2, 2, 3, 0, 4, 2};
-    int val = 2;
-    Solution a;
-    a.removeElement(nums, val);
-	return 0;
-}
+//int main()
+//{
+//    vector<int>nums{0, 1, 2, 2, 3, 0, 4, 2};
+//    int val = 2;
+//    Solution a;
+//    a.removeElement(nums, val);
+//	return 0;
+//}
