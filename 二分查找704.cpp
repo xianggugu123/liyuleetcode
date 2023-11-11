@@ -41,11 +41,11 @@ public:
         return -1;
     }
 };
-int main()
-{
-    vector<int> nums{ -1, 0, 3, 5, 9, 12 };
-    int target = 9;
-    Solution a;
-    a.search(nums, target);
-    return 0;
-}
+//int main()
+//{
+//    vector<int> nums{ -1, 0, 3, 5, 9, 12 };
+//    int target = 9;
+//    Solution a;
+//    a.search(nums, target);
+//    return 0;
+//}

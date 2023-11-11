@@ -49,11 +49,11 @@ public:
     }
 
 };
-int main()
-{
-    vector<int> nums_1{ 1, 3, 5, 6 };
-    int target_1 = 5;
-    Solution a;
-    a.searchInsert(nums_1, target_1);
-	return 0;
-}
+//int main()
+//{
+//    vector<int> nums_1{ 1, 3, 5, 6 };
+//    int target_1 = 5;
+//    Solution a;
+//    a.searchInsert(nums_1, target_1);
+//	return 0;
+//}

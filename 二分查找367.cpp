@@ -43,12 +43,12 @@ public:
         return false;
     }
 };
-int main()
-{
-    int x_1 = 4;
-    int x_2 = 8;
-    Solution a;
-    a.isPerfectSquare(x_1);
-    a.isPerfectSquare(x_2);
-	return 0;
-}
+//int main()
+//{
+//    int x_1 = 4;
+//    int x_2 = 8;
+//    Solution a;
+//    a.isPerfectSquare(x_1);
+//    a.isPerfectSquare(x_2);
+//	return 0;
+//}
