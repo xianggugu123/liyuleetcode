@@ -17,10 +17,10 @@ public:
         return slow;
     }
 };
-int main()
-{
-    vector<int>nums{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-    Solution a;
-    a.removeDuplicates(nums);
-	return 0;
-}
+//int main()
+//{
+//    vector<int>nums{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+//    Solution a;
+//    a.removeDuplicates(nums);
+//	return 0;
+//}

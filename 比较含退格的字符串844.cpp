@@ -92,10 +92,10 @@ public:
 
     }
 };
-int main()
-{
-    string s = "a#c", t = "b";
-    Solution a;
-    a.backspaceCompare(s, t);
-	return 0;
-}
+//int main()
+//{
+//    string s = "a#c", t = "b";
+//    Solution a;
+//    a.backspaceCompare(s, t);
+//	return 0;
+//}
