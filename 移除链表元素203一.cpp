@@ -46,26 +46,23 @@ using namespace std;
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        while (head != NULL && head->val == val)
+        ListNode* virhead = new ListNode(0);
+        virhead->next = head;
+        ListNode* cur = virhead;
+        while (cur->next!=NULL)
         {
-            ListNode* tmp = head;
-            head = head->next;
-            delete tmp;
-        }
-        ListNode* cur = head;
-        while (cur != NULL && (*cur).next != NULL)
-        {
-            if (cur->next->val == val)
-            {
+            if (cur->next->val == val) {
                 ListNode* tmp = cur->next;
                 cur->next = cur->next->next;
                 delete tmp;
             }
-            else
-            {
+            else {
                 cur = cur->next;
             }
+            
         }
+        head = virhead->next;
+        delete virhead;
         return head;
     }
 };

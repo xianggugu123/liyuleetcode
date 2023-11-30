@@ -73,7 +73,7 @@ private:
 };
 //int main()
 //{
-//	vector<int> nums{ -1, 0, 3,3,3,3,3,3,5, 9, 12 };
+//	vector<int> nums{ -1, 0, 3,3,5, 9, 12 };
 //	int target = 3;
 //	Solution a;
 //	a.searchRange(nums, target);

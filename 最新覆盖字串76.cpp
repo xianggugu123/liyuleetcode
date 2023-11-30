@@ -39,16 +39,16 @@ using namespace std;
 class Solution 
 {
 public:
-    unordered_map<char, int>smap, tmap;
-    int left = 0, right = -1;
+    unordered_map<char, int> smap, tmap;
+    int left = 0;
     int len = INT_MAX;
+    int right = -1;
     int lpos = -1;
     bool check()
     {
-        for (const auto& i : tmap)
+        for (const auto& i: tmap)
         {
-            if (smap[i.first] < i.second)
-            {
+            if (smap[i.first] < i.second){
                 return false;
             }
         }
@@ -56,17 +56,14 @@ public:
     }
     string minWindow(string s, string t) 
     {
-        for (const auto& i : t)
-        {
+        for( const auto& i : t){
             ++tmap[i];
         }
-        while (right <(int)(s.size()))
-        {
-            if (tmap.find(s[++right]) != tmap.end())
-            {
+        while (right < (int)s.size()) {
+            if (tmap.find(s[++right]) != tmap.end()) {
                 ++smap[s[right]];
             }
-            while (check()&&left<=right)
+            while (check() && left <= right)
             {
                 if (right - left + 1 < len)
                 {
@@ -77,18 +74,18 @@ public:
                 {
                     --smap[s[left]];
                 }
+
                 ++left;
             }
-
         }
         cout << (lpos == -1 ? string() : s.substr(lpos, len)) << endl;
-        return lpos == -1 ?string() : s.substr(lpos, len);
+        return lpos == -1 ? string() : s.substr(lpos, len);
     }
 };
-int main()
-{
-    string s = "ADOBECODEBANC", t = "ABC";
-    Solution a;
-    a.minWindow(s, t);
-	return 0;
-}
+//int main()
+//{
+//    string s = "ADOBECODEBANC", t = "ABC";
+//    Solution a;
+//    a.minWindow(s, t);
+//	return 0;
+//}

@@ -58,14 +58,31 @@ public:
             top++;
             bottom--;
         }
+        for (auto &i : order)
+        {
+            cout << order[i] << " ";
+        }
+        cout << endl;
+       
         return order;
     }
 };
-int main()
-{
-    Solution a;
-    vector<vector<int>> matrix(2, vector<int>(2, 0));
-    a.spiralOrder();
-    
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    vector <vector<int> >array;
+//    std::vector<int> v;
+//    for (int i = 0; i < 3; i++) {
+//        for (int j = 0; j < 3; j++) {
+//            int value;
+//            cin >> value;
+//            v.push_back(value);
+//        }
+//        array.push_back(v); //保存array的每个元素
+//        v.clear();
+//    }
+//   
+//    a.spiralOrder(array);
+//    
+//	return 0;
+//}

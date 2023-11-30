@@ -61,10 +61,10 @@ public:
 		return matrix;
 	}
 };
-int main()
-{
-	Solution a;
-	int m = 4;
-	a.generateMatrix(m);
-	return 0;
-}
+//int main()
+//{
+//	Solution a;
+//	int m = 4;
+//	a.generateMatrix(m);
+//	return 0;
+//}

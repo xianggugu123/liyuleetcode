@@ -57,10 +57,10 @@ public:
     }
 };
  
-int main()
-{
-    vector<int>fruits{1, 2, 2, 2, 2,3,3,3,4,4};
-    Solution a;
-    a.totalFruit(fruits);
-	return 0;
-}
+//int main()
+//{
+//    vector<int>fruits{1, 2, 2, 2, 2,3,3,3,4,4};
+//    Solution a;
+//    a.totalFruit(fruits);
+//	return 0;
+//}

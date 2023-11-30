@@ -44,11 +44,11 @@ public:
         return result== nums.size() + 1?0:result;
     }
 };
-int main()
-{
-    vector<int>nums{1,1,1,1,1,1,1,1};
-    int target = 11;
-    Solution a;
-    a.minSubArrayLen(target,nums);
-	return 0;
-}
+//int main()
+//{
+//    vector<int>nums{1,1,1,1,1,1,1,1};
+//    int target = 11;
+//    Solution a;
+//    a.minSubArrayLen(target,nums);
+//	return 0;
+//}

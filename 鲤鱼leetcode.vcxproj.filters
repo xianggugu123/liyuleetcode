@@ -30,5 +30,41 @@
     <ClCompile Include="二分查找34.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数组删除重复元素26.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组操作283.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数组移除元素27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="有序数组的平方977.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="比较含退格的字符串844.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="长度最小的子数组209cpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="水果成篮904.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最新覆盖字串76.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="螺旋矩阵二59.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="螺旋矩阵一54.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="移除链表元素203一.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="设计链表707.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
