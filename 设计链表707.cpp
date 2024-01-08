@@ -90,7 +90,3 @@ private:
 	int _size;
 	LinkedNode* _dummyHead;
 };
-int main()
-{
-	return 0;
-}
