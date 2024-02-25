@@ -14,7 +14,7 @@ public:
 			_size = 0;
 	}
 	// 获取到第index个节点数值，如果index是⾮法数值直接返回-1， 注意index是从0开始的，第0个节点就是头结点
-		int get(int index) {
+	int get(int index) {
 		if (index > (_size - 1) || index < 0) {
 			return -1;
 		}
@@ -90,7 +90,7 @@ private:
 	int _size;
 	LinkedNode* _dummyHead;
 };
-int main()
-{
-	return 0;
-}
+//int main()
+//{
+//	return 0;
+//}
