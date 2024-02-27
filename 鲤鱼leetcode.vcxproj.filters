@@ -63,7 +63,13 @@
     <ClCompile Include="移除链表元素203一.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="设计链表707.cpp">
+    <ClCompile Include="设计链表707-1双指针.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="删除链表元素203二（无头节点）.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="反转链表206.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

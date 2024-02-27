@@ -66,30 +66,30 @@ public:
         return head;
     }
 };
-int main()
-{
-    list<int> pp = { 1,2,6,5,3,6,5,4 };
-    ListNode* head = nullptr;
-    ListNode* current = nullptr;
-
-    // 遍历整数列表并创建链表节点
-    for (int value : pp) {
-        if (head == nullptr) {
-            // 如果是链表的第一个节点
-            head = new ListNode(value);
-            current = head;
-        }
-        else {
-            // 否则创建新节点，并将其连接到链表
-            current->next = new ListNode(value);
-            current = current->next;
-        }
-    }
-
-    int x = 6;
-    Solution a;
-    a.removeElements(head, x);
-    
-	return 0;
-    //12.7号
-}
+//int main()
+//{
+//    list<int> pp = { 1,2,6,5,3,6,5,4 };
+//    ListNode* head = nullptr;
+//    ListNode* current = nullptr;
+//
+//    // 遍历整数列表并创建链表节点
+//    for (int value : pp) {
+//        if (head == nullptr) {
+//            // 如果是链表的第一个节点
+//            head = new ListNode(value);
+//            current = head;
+//        }
+//        else {
+//            // 否则创建新节点，并将其连接到链表
+//            current->next = new ListNode(value);
+//            current = current->next;
+//        }
+//    }
+//
+//    int x = 6;
+//    Solution a;
+//    a.removeElements(head, x);
+//    
+//	return 0;
+//    //12.7号
+//}
