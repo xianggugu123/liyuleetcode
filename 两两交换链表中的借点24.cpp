@@ -38,28 +38,28 @@ public:
 
     }
 };
-int main()
-{
-    Solution a;
-    list<int> p = { 1,2,3,4,5 };
-    
-    ListNode* head = nullptr;
-    ListNode* cur = nullptr;
-    for (int val : p) {
-
-        if (head == nullptr)
-        {
-            head = new ListNode(val);
-            cur = head;
-        }
-        else
-        {
-            cur->next = new ListNode(val);
-            cur = cur->next;
-        }
-    }
-    a.print(head);
-    ListNode* heiheiihei = a.swapPairs(head);
-    a.print(heiheiihei);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    list<int> p = { 1,2,3,4,5 };
+//    
+//    ListNode* head = nullptr;
+//    ListNode* cur = nullptr;
+//    for (int val : p) {
+//
+//        if (head == nullptr)
+//        {
+//            head = new ListNode(val);
+//            cur = head;
+//        }
+//        else
+//        {
+//            cur->next = new ListNode(val);
+//            cur = cur->next;
+//        }
+//    }
+//    a.print(head);
+//    ListNode* heiheiihei = a.swapPairs(head);
+//    a.print(heiheiihei);
+//	return 0;
+//}

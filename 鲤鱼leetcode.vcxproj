@@ -128,25 +128,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="两两交换链表中的借点24.cpp" />
+    <ClCompile Include="两个数组的交集349.cpp" />
     <ClCompile Include="删除链表元素203二（无头节点）.cpp" />
     <ClCompile Include="二分查找34.cpp" />
     <ClCompile Include="二分查找35.cpp" />
     <ClCompile Include="二分查找367.cpp" />
     <ClCompile Include="二分查找69.cpp" />
     <ClCompile Include="二分查找704.cpp" />
+    <ClCompile Include="删除链表的倒数第n个结点19.cpp" />
     <ClCompile Include="反转链表206.cpp" />
     <ClCompile Include="数组删除重复元素26.cpp" />
     <ClCompile Include="数组操作283.cpp" />
     <ClCompile Include="数组移除元素27.cpp" />
     <ClCompile Include="最新覆盖字串76.cpp" />
     <ClCompile Include="有序数组的平方977.cpp" />
+    <ClCompile Include="有效的字母异位词242.cpp" />
     <ClCompile Include="比较含退格的字符串844.cpp" />
     <ClCompile Include="水果成篮904.cpp" />
+    <ClCompile Include="环形链表II-142.cpp" />
     <ClCompile Include="移除链表元素203一.cpp" />
     <ClCompile Include="螺旋矩阵一54.cpp" />
     <ClCompile Include="螺旋矩阵二59.cpp" />
     <ClCompile Include="设计链表707-1双指针.cpp" />
     <ClCompile Include="长度最小的子数组209cpp.cpp" />
+    <ClCompile Include="面试题02.07链表相交.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

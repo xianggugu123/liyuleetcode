@@ -58,45 +58,45 @@ public:
     }
 };
 
-int main()
-{
-    Solution a;
-    list<int> p1 = { 4,1,8,3,5 };
-    list<int> p2 = { 5,0,1,8,3,5 };
-    ListNode* headA = nullptr;
-    ListNode* headB = nullptr;
-    ListNode* cur = nullptr;
-    for (int val : p1) {
-
-        if (headA == nullptr)
-        {
-            headA = new ListNode(val);
-            cur = headA;
-        }
-        else
-        {
-            cur->next = new ListNode(val);
-            cur = cur->next;
-        }
-    }
-    for (int val : p2) {
-
-        if (headB == nullptr)
-        {
-            headB = new ListNode(val);
-            cur = headB;
-        }
-        else
-        {
-            cur->next = new ListNode(val);
-            cur = cur->next;
-        }
-    }
-    a.print(headA);
-    a.print(headB);
-   
-  
-
-   
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    list<int> p1 = { 4,1,8,3,5 };
+//    list<int> p2 = { 5,0,1,8,3,5 };
+//    ListNode* headA = nullptr;
+//    ListNode* headB = nullptr;
+//    ListNode* cur = nullptr;
+//    for (int val : p1) {
+//
+//        if (headA == nullptr)
+//        {
+//            headA = new ListNode(val);
+//            cur = headA;
+//        }
+//        else
+//        {
+//            cur->next = new ListNode(val);
+//            cur = cur->next;
+//        }
+//    }
+//    for (int val : p2) {
+//
+//        if (headB == nullptr)
+//        {
+//            headB = new ListNode(val);
+//            cur = headB;
+//        }
+//        else
+//        {
+//            cur->next = new ListNode(val);
+//            cur = cur->next;
+//        }
+//    }
+//    a.print(headA);
+//    a.print(headB);
+//   
+//  
+//
+//   
+//	return 0;
+//}

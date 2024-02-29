@@ -72,5 +72,23 @@
     <ClCompile Include="反转链表206.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="两两交换链表中的借点24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="删除链表的倒数第n个结点19.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题02.07链表相交.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="环形链表II-142.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="有效的字母异位词242.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="两个数组的交集349.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

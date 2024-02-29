@@ -21,11 +21,11 @@ public:
         return true;
     }
 };
-int main()
-{
-    Solution a;
-    string s = "anagram";
-    string t = "nagaram";
-    a.isAnagram(s, t);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    string s = "anagram";
+//    string t = "nagaram";
+//    a.isAnagram(s, t);
+//	return 0;
+//}
