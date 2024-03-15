@@ -36,10 +36,10 @@ public:
         return res;
     }
 };
-int main()
-{
-    Solution a;
-    string s = "abbaca";
-    a.removeDuplicates(s);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    string s = "abbaca";
+//    a.removeDuplicates(s);
+//	return 0;
+//}

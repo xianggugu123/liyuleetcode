@@ -29,16 +29,16 @@ public:
 		return count;
 	}
 };
-int main()
-{
-	Solution a;
-	vector<int>nums1 = { 1,2 };
-	vector<int>nums2 = { -2,-1 };
-	vector<int>nums3 = { -1,2 };
-	vector<int>nums4 = { 0,2 };
-	
-	
-	a.fourNumSum(nums1,nums2,nums3,nums4);
-	
-	return 0;
-}
+//int main()
+//{
+//	Solution a;
+//	vector<int>nums1 = { 1,2 };
+//	vector<int>nums2 = { -2,-1 };
+//	vector<int>nums3 = { -1,2 };
+//	vector<int>nums4 = { 0,2 };
+//	
+//	
+//	a.fourNumSum(nums1,nums2,nums3,nums4);
+//	
+//	return 0;
+//}

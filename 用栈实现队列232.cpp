@@ -8,6 +8,8 @@
 //boolean empty() 如果队列为空，返回 true ；否则，返回 false
 
 #include <iostream>
+#include <stack>
+
 using namespace std;
 class MyQueue {
 public:
@@ -49,15 +51,15 @@ public:
     }
 };
 
-/**
- * Your MyQueue object will be instantiated and called as such:
- * MyQueue* obj = new MyQueue();
- * obj->push(x);
- * int param_2 = obj->pop();
- * int param_3 = obj->peek();
- * bool param_4 = obj->empty();
- */
-int main()
-{
-	return 0;
-}
+//int main()
+//{
+//   
+//     MyQueue* obj = new MyQueue();
+//     int x = 1;
+//     obj->push(x);
+//     int param_2 = obj->pop();
+//     int param_3 = obj->peek();
+//     bool param_4 = obj->empty();
+//     
+//	return 0;
+//}

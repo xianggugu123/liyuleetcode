@@ -23,11 +23,11 @@ public:
 };
 
 
-int main()
-{
-    string a = "aa";
-    string b = "aab";
-    Solution pp;
-    pp.canConstruct(a, b);
-	return 0;
-}
+//int main()
+//{
+//    string a = "aa";
+//    string b = "aab";
+//    Solution pp;
+//    pp.canConstruct(a, b);
+//	return 0;
+//}

@@ -33,12 +33,12 @@ public:
 		return s;
 	}
 };
-int main()
-
-{
-	Solution a;
-	string s{ "abcdefg" };
-	int k = 2;
-	a.reverseStr(s, k);
-	return 0;
-}
+//int main()
+//
+//{
+//	Solution a;
+//	string s{ "abcdefg" };
+//	int k = 2;
+//	a.reverseStr(s, k);
+//	return 0;
+//}

@@ -15,10 +15,10 @@ public:
         return false;
     }
 };
-int main()
-{
-    string s = "abab";
-    Solution a;
-    a.repeatedSubstringPattern(s);
-    return 0;
-}
+//int main()
+//{
+//    string s = "abab";
+//    Solution a;
+//    a.repeatedSubstringPattern(s);
+//    return 0;
+//}

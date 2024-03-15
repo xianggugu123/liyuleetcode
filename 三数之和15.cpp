@@ -67,12 +67,12 @@ public:
 		
 	}
 };
-int main()
-{
-	vector<int>nums = { -1, 0, 1, 2, -1, -4 };
-	Solution a;
-	vector<vector<int>> res=a.threeNumSum(nums);
-	a.print(res);
-	return 0;
-
-}
+//int main()
+//{
+//	vector<int>nums = { -1, 0, 1, 2, -1, -4 };
+//	Solution a;
+//	vector<vector<int>> res=a.threeNumSum(nums);
+//	a.print(res);
+//	return 0;
+//
+//}

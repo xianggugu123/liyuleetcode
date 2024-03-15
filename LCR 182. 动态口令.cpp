@@ -15,11 +15,11 @@ public:
         return password;
     }
 };
-int main()
-{
-    string password = "s3cur1tyC0d3";
-    int target = 4;
-    Solution a;
-    a.dynamicPassword(password, target);
-	return 0;
-}
+//int main()
+//{
+//    string password = "s3cur1tyC0d3";
+//    int target = 4;
+//    Solution a;
+//    a.dynamicPassword(password, target);
+//	return 0;
+//}

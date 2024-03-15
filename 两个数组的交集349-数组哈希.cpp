@@ -19,11 +19,12 @@ public:
         return vector<int>(result_set.begin(), result_set.end());
     }
 };
-int main()
-{
-    vector<int>nums1 = { 1,2,2,1 };
-    vector<int>nums2 = { 2,2 };
-    Solution a;
-    a.intersection(nums1, nums2);
-    return 0;
-}
+//int main()
+//{
+//    vector<int>nums1 = { 1,2,2,1 };
+//
+//    vector<int>nums2 = { 2,2 };
+//    Solution a;
+//    a.intersection(nums1, nums2);
+//    return 0;
+//}

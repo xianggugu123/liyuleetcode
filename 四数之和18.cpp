@@ -60,12 +60,12 @@ public:
         return res;
     }
 };
-int main()
-{
-    Solution a;
-    vector<int>nums = { 1,0,-1,0,-2,2 };
-    int target = 0;
-    vector<vector<int>>res=a.fourSum(nums, target);
-    a.print(res);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    vector<int>nums = { 1,0,-1,0,-2,2 };
+//    int target = 0;
+//    vector<vector<int>>res=a.fourSum(nums, target);
+//    a.print(res);
+//	return 0;
+//}

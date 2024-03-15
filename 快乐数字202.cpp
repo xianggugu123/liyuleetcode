@@ -44,10 +44,10 @@ public:
 		}
 	}
 };
-int main()
-{
-	Solution b;
-	int a = 19;
-	b.isHappy(a);
-	return 0;
-}
+//int main()
+//{
+//	Solution b;
+//	int a = 19;
+//	b.isHappy(a);
+//	return 0;
+//}

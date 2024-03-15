@@ -27,11 +27,11 @@ public:
 		return {};
 	}
 };
-int main()
-{
-	vector<int>sums = { 3,2,4 };
-	int target = 6;
-	Solution a;
-	a.twoSum(sums, target);
-	return 0;
-}
+//int main()
+//{
+//	vector<int>sums = { 3,2,4 };
+//	int target = 6;
+//	Solution a;
+//	a.twoSum(sums, target);
+//	return 0;
+//}

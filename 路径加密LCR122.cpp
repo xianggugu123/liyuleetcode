@@ -21,10 +21,10 @@ public:
         return path;
     }
 };
-int main()
-{
-    Solution a;
-    string path= "a.aef.qerf.bb";
-    a.pathEncryption(path);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    string path= "a.aef.qerf.bb";
+//    a.pathEncryption(path);
+//	return 0;
+//}

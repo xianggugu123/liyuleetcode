@@ -51,10 +51,10 @@ public:
         return s;
     }
 };
-int main()
-{
-    Solution a;
-    string s = "the sky is blue";
-    a.reverseWords(s);
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    string s = "the sky is blue";
+//    a.reverseWords(s);
+//	return 0;
+//}

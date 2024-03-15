@@ -38,12 +38,12 @@ public:
         return -1;
     }
 };
-int main()
-{
-    string haystack = "aabaabaafa";
-    string needle = "aabaaf";
-    Solution a;
-    int ret=a.strStr(haystack, needle);
-    cout << ret;
-	return 0;
-}
+//int main()
+//{
+//    string haystack = "aabaabaafa";
+//    string needle = "aabaaf";
+//    Solution a;
+//    int ret=a.strStr(haystack, needle);
+//    cout << ret;
+//	return 0;
+//}

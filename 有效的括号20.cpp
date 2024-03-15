@@ -37,16 +37,16 @@ public:
         return a.empty();
     }
 };
-int main()
-{
-    Solution a;
-    string pp= "()";
-    int res=a.isValid(pp);
-    if (res == 1) {
-        cout << true << endl;
-    }
-    else {
-        cout << false << endl;
-    }
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    string pp= "()";
+//    int res=a.isValid(pp);
+//    if (res == 1) {
+//        cout << true << endl;
+//    }
+//    else {
+//        cout << false << endl;
+//    }
+//	return 0;
+//}

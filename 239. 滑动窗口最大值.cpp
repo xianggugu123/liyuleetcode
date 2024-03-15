@@ -29,7 +29,7 @@ public:
 	vector<int> maxSlidingWindow(vector<int>& nums, int k) {
 		MyQueue que;
 		vector<int>result;
-		for (int i = 0; i <= k; i++) {
+		for (int i = 0; i <k; i++) {
 			que.push(nums[i]);
 		}
 		result.push_back(que.front());
