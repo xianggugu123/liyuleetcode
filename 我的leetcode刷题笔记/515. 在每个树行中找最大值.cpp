@@ -50,20 +50,22 @@ public:
         delete node;
     }
 };
-int main() {
-    Solution solution;
-    vector<int> vals = { 1,3,2,5,3,-1,9 }; // 用 -1 表示空节点
-    int index = 0;
-    TreeNode* root = solution.buildTree(vals, index);
-    vector<int> maxValue = solution.largestValues(root);
-
-    for (auto i  : maxValue) {
-        cout << i << " ";
-    }
-    cout << endl;
-
-    // 释放内存，避免内存泄漏
-    solution.deleteTree(root);
-
-    return 0;
-}
+//int main()
+//{
+//
+//    Solution solution;
+//    vector<int> vals = { 1,3,5,-1,-1,3,-1,-1,2,-1,9,-1,-1}; // 用 -1 表示空节点
+//    int index = 0;
+//    TreeNode* root = solution.buildTree(vals, index);
+//    vector<int> maxValue = solution.largestValues(root);
+//
+//    for (auto i  : maxValue) {
+//        cout << i << " ";
+//    }
+//    cout << endl;
+//
+//    // 释放内存，避免内存泄漏
+//    solution.deleteTree(root);
+//
+//    return 0;
+//}
