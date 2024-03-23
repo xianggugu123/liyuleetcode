@@ -187,6 +187,7 @@
     <ClCompile Include="..\长度最小的子数组209cpp.cpp" />
     <ClCompile Include="..\面试题02.07链表相交.cpp" />
     <ClCompile Include="104. 二叉树的最大深度.cpp" />
+    <ClCompile Include="111. 二叉树的最小深度.cpp" />
     <ClCompile Include="116. 填充每个节点的下一个右侧节点指针.cpp" />
   </ItemGroup>
   <ItemGroup>
