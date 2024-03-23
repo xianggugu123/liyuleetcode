@@ -4,6 +4,7 @@
 //root = [1, null, 3, 2, 4, null, 5, 6]
 #include <iostream>
 #include <vector>
+#include <queue>
 using namespace std;
 struct Node {
 	int val;  //节点数值

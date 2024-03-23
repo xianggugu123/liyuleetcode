@@ -58,20 +58,20 @@ public:
         return result;
     }
 };
-int main()
-{
-    Solution a;
-    TreeNode* root = nullptr;
-   /* root = a.insert(root, 3);
-    root = a.insert(root, 9);
-    root = a.insert(root, 20);
-    root = a.insert(root, NULL);
-    root = a.insert(root, NULL);
-    root = a.insert(root, 15);
-    root = a.insert(root, 7);
-    a.levelOrder(root);*/
-
-          
-   
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    TreeNode* root = nullptr;
+//   /* root = a.insert(root, 3);
+//    root = a.insert(root, 9);
+//    root = a.insert(root, 20);
+//    root = a.insert(root, NULL);
+//    root = a.insert(root, NULL);
+//    root = a.insert(root, 15);
+//    root = a.insert(root, 7);
+//    a.levelOrder(root);*/
+//
+//          
+//   
+//	return 0;
+//}

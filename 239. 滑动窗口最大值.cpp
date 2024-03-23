@@ -45,11 +45,11 @@ public:
 		return result;
 	}
 };
-int main()
-{
-	Solution a;
-	vector<int> nums{ 1,3,-1,-3,5,3,6,7 };
-	int k = 3;
-	a.maxSlidingWindow(nums, k);
-	return 0;
-}
+//int main()
+//{
+//	Solution a;
+//	vector<int> nums{ 1,3,-1,-3,5,3,6,7 };
+//	int k = 3;
+//	a.maxSlidingWindow(nums, k);
+//	return 0;
+//}

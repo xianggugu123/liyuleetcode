@@ -46,16 +46,16 @@ public:
         return res;
     }
 };
-int main()
-{
-    Solution a;
-    TreeNode* root = nullptr;
-    root = a.insert(root, 1);
-    root = a.insert(root, NULL);
-    root = a.insert(root, 2);
-    root = a.insert(root, 3);
-    a.preorderTraversal(root);
-          
-   
-	return 0;
-}
+//int main()
+//{
+//    Solution a;
+//    TreeNode* root = nullptr;
+//    root = a.insert(root, 1);
+//    root = a.insert(root, NULL);
+//    root = a.insert(root, 2);
+//    root = a.insert(root, 3);
+//    a.preorderTraversal(root);
+//          
+//   
+//	return 0;
+//}

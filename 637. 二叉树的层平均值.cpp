@@ -60,20 +60,20 @@ public:
     }
 };
 
-int main() {
-    Solution solution;
-    vector<int> vals = { 3, 9, -1, -1, 20, 15, -1, -1, 7, -1, -1 }; // 用 -1 表示空节点
-    int index = 0;
-    TreeNode* root = solution.buildTree(vals, index);
-    vector<double> averages = solution.averageOfLevels(root);
-
-    for (double avg : averages) {
-        cout << avg << " ";
-    }
-    cout << endl;
-
-    // 释放内存，避免内存泄漏
-    solution.deleteTree(root);
-
-    return 0;
-}
+//int main() {
+//    Solution solution;
+//    vector<int> vals = { 3, 9, -1, -1, 20, 15, -1, -1, 7, -1, -1 }; // 用 -1 表示空节点
+//    int index = 0;
+//    TreeNode* root = solution.buildTree(vals, index);
+//    vector<double> averages = solution.averageOfLevels(root);
+//
+//    for (double avg : averages) {
+//        cout << avg << " ";
+//    }
+//    cout << endl;
+//
+//    // 释放内存，避免内存泄漏
+//    solution.deleteTree(root);
+//
+//    return 0;
+//}
